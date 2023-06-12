@@ -1,0 +1,78 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300px"
+    android:gravity="center"
+    android:translationZ="100dp">
+
+    <LinearLayout
+        android:layout_width="800px"
+        android:layout_height="92dp"
+        android:background="@drawable/lanking_bottom_card"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="현재 "
+                android:textColor="#78AFAF"
+                android:textSize="40px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lanking_myname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="옹알이"
+                android:textSize="60px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 님의 랭킹은?"
+                android:textColor="#78AFAF"
+                android:textSize="40px"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lanking_myrank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textColor="#78AFAF"
+                android:textSize="70px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="위"
+                android:textColor="#78AFAF"
+                android:textSize="70px"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
